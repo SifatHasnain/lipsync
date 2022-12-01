@@ -1,5 +1,13 @@
 # LipSync
 
+## Audio Generation
+Google TTS service has been used to generate audio for required sentences. So to run the script, gcp serviceaccount key is needed.
+
+1. Create a text file including the sentences. You can see the format from [here](/audio/audio_sentence_0.txt).
+2. Run google_TTS.ipynb file that will generate audio in the same folder in .wav file format.
+
+## LipSync Video 
+
 1. Here Wav2lip has been used for lip sync a video wit desired audio
 2. As generated video had very low qualty and face became very blurry, used restoration GAN named GFPGAN
 
